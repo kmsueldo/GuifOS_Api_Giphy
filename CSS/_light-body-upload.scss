@@ -1,0 +1,292 @@
+.day-nav-bar-container{
+            .arrow-index{
+                display: flex;
+                align-items: center;
+                        a{
+                            margin-right: 20%;
+                        }
+            }
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5%;
+        .window-create-gifos{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #E6E6E6;
+            box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+            width: 50%;
+            height: auto;
+                    .window-title-gifos{                        
+                        width: 100%;                        
+                            h4{
+                                background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+                                justify-content: left;
+                                box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+                                padding: 1%;
+                                font-family: 'Chakra Petch', sans-serif;
+                                font-size: 14px;
+                                color: #FFFFFF;
+                                letter-spacing: 0;
+                                }     
+                    }
+                    .window-text-gifos{
+                        display: flex;
+                        padding: 5%;
+                                    .window-container-text{
+                                        padding-left: 5%;
+                                                    .window-subtitle{
+                                                        font-family: 'Chakra Petch', sans-serif;
+                                                        font-size: 16px;
+                                                        color: #110038;
+                                                        letter-spacing: 0;
+                                                        line-height: 22px;
+                                                        font-weight: 700;
+                                                        padding-bottom: 5%;
+                                                    }
+                                                    .window-steps-gif{
+                                                        font-family: 'Chakra Petch', sans-serif;
+                                                        font-size: 14px;
+                                                        color: #110038;
+                                                        letter-spacing: 0;
+                                                        line-height: 20px;
+                                                        span{
+                                                            font-weight: 700;
+                                                        }
+                                                    }
+                                                    .window-buttons{
+                                                        display: flex;
+                                                        justify-content: flex-end;
+                                                        
+                                                        
+                                                                .window-button-cancel{
+                                                                    background: #FFF4FD;
+                                                                    border: 1px solid #110038;
+                                                                    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+                                                                    padding: 2% 5%;
+                                                                    margin-right: 5%;
+                                                                }
+                                                                .window-button-start{
+                                                                    background: #F7C9F3;
+                                                                    border: 1px solid #110038;
+                                                                    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+                                                                    padding: 2% 5%;
+                                                                }
+                                                    }
+                                    }
+                    }
+        }
+
+        .window-check-camera{
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            background: #E6E6E6;
+            /* box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF; */
+            width: 50%;
+            height: auto;
+            background-color: #B4B4B4;
+
+                    .window-title-check{
+                        display: flex;
+                        justify-content: space-between;                        
+                        background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+                        width: 100%;
+                                h4{
+                                    padding: 1%;
+                                    width: 80%;
+                                    font-family: 'Chakra Petch', sans-serif;
+                                    font-size: 14px;
+                                    color: #FFFFFF;
+                                    letter-spacing: 0;
+                                }
+                                img{
+                                    padding: 1%;
+                                }
+                        
+                        
+                    }
+                    .window-video-camera{
+                        margin-top: 5%;
+                        margin-bottom: 5%;                        
+                            .subiendo-guifo{
+                                display: none;
+                                font-family: 'Chakra Petch', sans-serif;
+                                font-size: 16px;
+                                color: #110038;
+                                letter-spacing: 0;
+                                text-align: center;
+                                line-height: 22px;
+                                margin-bottom: 50%;
+                                padding-top: 20%;
+                            }   
+                            #logoSubir{
+                                display: none;
+                                padding-top: 20%;
+                                padding-left: 40%;
+                            }                     
+                    }
+                    .window-guifo-ready{
+                        display: none;
+                        width: 90%;
+                        img{
+                            padding-top: 5%;
+                        }
+                        .container-window-guifo-ready{
+                            display: flex;
+                            flex-direction: column;  
+                            padding-left: 5%;
+                            width: 80%;
+                            padding-top: 10%;
+                            h4{
+                                font-family: 'Chakra Petch', sans-serif;
+                                font-size: 16px;
+                                color: #110038;
+                                letter-spacing: 0;
+                                line-height: 22px;
+                                margin-bottom: 5%;
+                            }
+                            button{
+                                background: #FFF4FD;
+                                border: 1px solid #110038;
+                                box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+                                font-family: 'Chakra Petch', sans-serif;
+                                font-size: 16px;
+                                color: #110038;
+                                letter-spacing: 0;
+                                text-align: center;
+                                line-height: 18px;
+                                padding: 2%;
+                                padding-left: 5%;
+                                padding-right: 5%;
+                                margin-bottom: 5%;
+                            }
+                        }
+                    }
+                    .window-video-buttons{
+                        display: flex;
+                        width: 50%;
+                        padding-left: 90%;
+                        margin-bottom: 2%;
+                                img{
+                                    background: #F7C9F3;
+                                    border: 1px solid #110038;
+                                    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+                                    padding: 2.6%;
+                                    padding-right: 4%;
+                                    padding-left: 4%;
+                                    margin-right: 1%;
+                                }
+                                .window-button-start{
+                                    background: #F7C9F3;
+                                    border: 1px solid #110038;
+                                    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+                                    padding: 3%;
+                                    padding-right: 8%;
+                                    padding-left: 8%;
+                                    font-family: 'Chakra Petch', sans-serif;
+                                    font-size: 16px;
+                                    color: #110038;
+                                    letter-spacing: 0;
+                                    text-align: center;
+                                    line-height: 18p
+                                }
+                    }
+                    .window-video-end{
+                        display: none;
+                        width: 50%;
+                        padding-left: 90%;
+                        margin-bottom: 2%;
+                                img{
+                                    background: #FF6161;
+                                    border: 1px solid #110038;
+                                    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+                                    padding: 2.6%;
+                                    padding-right: 4%;
+                                    padding-left: 4%;
+                                    margin-right: 1%;
+                                }
+                                .window-button-end{
+                                    background: #FF6161;
+                                    border: 1px solid #110038;
+                                    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+                                    padding: 3%;
+                                    padding-right: 13%;
+                                    padding-left: 13%;
+                                    font-family: 'Chakra Petch', sans-serif;
+                                    font-size: 16px;
+                                    color: white;
+                                    letter-spacing: 0;
+                                    text-align: center;
+                                    line-height: 18px;
+                                }
+                                .window-button-repeat{
+                                    display: none;
+                                    background: white;
+                                    border: 1px solid #110038;
+                                    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+                                    padding: 3%;
+                                    padding-right: 3%;
+                                    padding-left: 3%;
+                                    font-family: 'Chakra Petch', sans-serif;
+                                    font-size: 16px;
+                                    color: #110038;
+                                    letter-spacing: 0;
+                                    text-align: center;
+                                    line-height: 18px;
+                                }
+                                .window-button-upload{
+                                    display: none;
+                                    background: #F7C9F3;
+                                    border: 1px solid #110038;
+                                    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+                                    padding: 3%;
+                                    padding-right: 3%;
+                                    padding-left: 3%;
+                                    margin-left: 2%;
+                                    font-family: 'Chakra Petch', sans-serif;
+                                    font-size: 16px;
+                                    color: #110038;
+                                    letter-spacing: 0;
+                                    text-align: center;
+                                    line-height: 18px;
+                                }
+                                .window-button-cancel{
+                                    display: none;
+                                    background: #FFF4FD;
+                                    border: 1px solid #110038;
+                                    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+                                    font-family: 'Chakra Petch', sans-serif;
+                                    font-size: 16px;
+                                    color: #110038;
+                                    letter-spacing: 0;
+                                    text-align: center;
+                                    line-height: 18px;
+                                    padding: 3%;
+                                    padding-right: 3%;
+                                    padding-left: 3%;
+                                    margin-left: 50%;
+                                }
+                                .window-button-ok{
+                                    display: none;
+                                    background: #F7C9F3;
+                                    border: 1px solid #110038;
+                                    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+                                    font-family: 'Chakra Petch', sans-serif;
+                                    font-size: 16px;
+                                    color: #110038;
+                                    letter-spacing: 0;
+                                    text-align: center;
+                                    line-height: 18px;
+                                    padding: 3%;
+                                    padding-right: 10%;
+                                    padding-left: 10%;
+                                    margin-left: 50%;
+                                }
+                    }
+        }
+}
